@@ -56,10 +56,6 @@ Open your browser and go to:
 
 http://127.0.0.1:5000/
 
-📸 Demo Screenshot
-
-(You can add a screenshot of your running project here — just take one and upload to GitHub repo later)
-
 👨‍💻 Author
 
 Yaswanth
