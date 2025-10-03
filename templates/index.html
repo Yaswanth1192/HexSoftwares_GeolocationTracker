@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Geolocation Tracker</title>
+</head>
+<body>
+  <h1>🌍 Geolocation Tracker</h1>
+  <form method="POST">
+    <label>Enter IP Address:</label>
+    <input type="text" name="ip" placeholder="e.g. 8.8.8.8">
+    <button type="submit">Track</button>
+  </form>
+
+  {% if location %}
+    <h2>Result:</h2>
+    <p><b>City:</b> {{ location.city }}</p>
+    <p><b>Region:</b> {{ location.region }}</p>
+    <p><b>Country:</b> {{ location.country }}</p>
+    <p><b>ISP:</b> {{ location.isp }}</p>
+    <h3>Map:</h3>
+    {{ map_html|safe }}
+  {% endif %}
+</body>
+</html>
