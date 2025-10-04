@@ -56,9 +56,15 @@ Open your browser and go to:
 
 http://127.0.0.1:5000/
 
+📸 Demo Screenshot
+
+Here’s how the Geolocation Tracker looks when running locally:
+
+![Demo Screenshot](static/demo.png)
+
 👨‍💻 Author
 
-Yaswanth
+Nadapana Yaswanth
 
 Internship Project @ HexSoftwares
 
